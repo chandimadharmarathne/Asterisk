@@ -1,0 +1,5 @@
+.less-history-file:
+.search
+"etc/init.d/asterisk; generated)
+"system.slice/asterisk.service
+"usr/sbin/asterisk -U asterisk -G asterisk
