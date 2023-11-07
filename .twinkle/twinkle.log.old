@@ -1,0 +1,164 @@
++++ 7-11-2023 10:13:30.331453 INFO NORMAL t_log::t_log
+Twinkle 1.10.2, February 14, 2018
+---
+
++++ 7-11-2023 10:13:30.331718 INFO NORMAL t_log::t_log
+Built with support for: ALSA, Speex
+---
+
++++ 7-11-2023 10:13:30.331771 INFO NORMAL ::main
+Threading implementation is NPTL.
+---
+
++++ 7-11-2023 10:13:30.331976 INFO NORMAL t_user::read_config
+Reading config: twinkle.cfg
+---
+
++++ 7-11-2023 10:13:30.332275 INFO NORMAL t_phone_user::t_phone_user
+twinkle: buddy list loaded.
+---
+
++++ 7-11-2023 10:13:30.332416 INFO NORMAL ::main
+ICMP processing enabled.
+---
+
++++ 7-11-2023 10:13:30.337317 INFO NORMAL ::main
+Created local socket: /root/.twinkle/.cmdsock
+---
+
++++ 7-11-2023 10:13:30.339329 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+---
+
++++ 7-11-2023 10:13:30.347161 CRITICAL NORMAL t_alsa_io::open
+snd_pcm_open failed: No such file or directory
+---
+
++++ 7-11-2023 10:13:30.347467 CRITICAL NORMAL t_audio_io::open
+Open audio device failed
+---
+
++++ 7-11-2023 10:13:30.347647 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+capture
+---
+
++++ 7-11-2023 10:13:30.347703 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+---
+
++++ 7-11-2023 10:13:30.348411 CRITICAL NORMAL t_alsa_io::open
+snd_pcm_open failed: No such file or directory
+---
+
++++ 7-11-2023 10:13:30.348605 CRITICAL NORMAL t_audio_io::open
+Open audio device failed
+---
+
++++ 7-11-2023 10:13:30.348789 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+capture
+---
+
++++ 7-11-2023 10:13:30.348840 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+---
+
++++ 7-11-2023 10:13:30.350014 CRITICAL NORMAL t_alsa_io::open
+snd_pcm_open failed: No such file or directory
+---
+
++++ 7-11-2023 10:13:30.350213 CRITICAL NORMAL t_audio_io::open
+Open audio device failed
+---
+
++++ 7-11-2023 10:13:30.710922 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKddtmxnoq
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=zplny
+Call-ID: nezglnrfbpclxun@dms
+CSeq: 697 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKddtmxnoq
+To: <sip:@>;tag=rqaex
+From: <sip:@>;tag=zplny
+Call-ID: nezglnrfbpclxun@dms
+CSeq: 697 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:14:01.275561 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKpqtrdrnq
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=zlipe
+Call-ID: nezglnrfbpclxun@dms
+CSeq: 698 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKpqtrdrnq
+To: <sip:@>;tag=qebff
+From: <sip:@>;tag=zlipe
+Call-ID: nezglnrfbpclxun@dms
+CSeq: 698 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:14:30.790815 INFO NORMAL ::phone_sigwait
+SIGINT received.
+---
+
++++ 7-11-2023 10:14:31.782548 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKnkbfbbja
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=glyui
+Call-ID: nezglnrfbpclxun@dms
+CSeq: 699 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKnkbfbbja
+To: <sip:@>;tag=cwira
+From: <sip:@>;tag=glyui
+Call-ID: nezglnrfbpclxun@dms
+CSeq: 699 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+

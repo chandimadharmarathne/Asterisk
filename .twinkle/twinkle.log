@@ -1,0 +1,322 @@
++++ 7-11-2023 10:14:50.232085 INFO NORMAL t_log::t_log
+Twinkle 1.10.2, February 14, 2018
+---
+
++++ 7-11-2023 10:14:50.232275 INFO NORMAL t_log::t_log
+Built with support for: ALSA, Speex
+---
+
++++ 7-11-2023 10:14:50.232308 INFO NORMAL ::main
+Threading implementation is NPTL.
+---
+
++++ 7-11-2023 10:14:50.232388 INFO NORMAL t_user::read_config
+Reading config: twinkle.cfg
+---
+
++++ 7-11-2023 10:14:50.232510 INFO NORMAL t_phone_user::t_phone_user
+twinkle: buddy list loaded.
+---
+
++++ 7-11-2023 10:14:50.232593 INFO NORMAL ::main
+ICMP processing enabled.
+---
+
++++ 7-11-2023 10:14:50.235048 INFO NORMAL ::main
+Created local socket: /root/.twinkle/.cmdsock
+---
+
++++ 7-11-2023 10:14:50.236291 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+---
+
++++ 7-11-2023 10:14:50.239399 CRITICAL NORMAL t_alsa_io::open
+snd_pcm_open failed: No such file or directory
+---
+
++++ 7-11-2023 10:14:50.239538 CRITICAL NORMAL t_audio_io::open
+Open audio device failed
+---
+
++++ 7-11-2023 10:14:50.239698 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+capture
+---
+
++++ 7-11-2023 10:14:50.239756 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+---
+
++++ 7-11-2023 10:14:50.240185 CRITICAL NORMAL t_alsa_io::open
+snd_pcm_open failed: No such file or directory
+---
+
++++ 7-11-2023 10:14:50.240415 CRITICAL NORMAL t_audio_io::open
+Open audio device failed
+---
+
++++ 7-11-2023 10:14:50.240554 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+capture
+---
+
++++ 7-11-2023 10:14:50.240600 INFO NORMAL t_alsa_io::open
+Opening ALSA device: default
+play
+---
+
++++ 7-11-2023 10:14:50.242068 CRITICAL NORMAL t_alsa_io::open
+snd_pcm_open failed: No such file or directory
+---
+
++++ 7-11-2023 10:14:50.242330 CRITICAL NORMAL t_audio_io::open
+Open audio device failed
+---
+
++++ 7-11-2023 10:14:50.603364 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKeyyqmptt
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=zeopq
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 457 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKeyyqmptt
+To: <sip:@>;tag=agnip
+From: <sip:@>;tag=zeopq
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 457 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:15:30.994261 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKxndpwiyw
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=yvghy
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 458 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKxndpwiyw
+To: <sip:@>;tag=kekzu
+From: <sip:@>;tag=yvghy
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 458 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:16:01.522844 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKkcfkiuuz
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=qxsjl
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 459 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKkcfkiuuz
+To: <sip:@>;tag=upfbn
+From: <sip:@>;tag=qxsjl
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 459 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:16:32.012580 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKdrlnxyor
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=eqstn
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 460 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKdrlnxyor
+To: <sip:@>;tag=qnmzy
+From: <sip:@>;tag=eqstn
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 460 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:17:02.520499 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKbalvssyh
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=wbfgl
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 461 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKbalvssyh
+To: <sip:@>;tag=xpaqe
+From: <sip:@>;tag=wbfgl
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 461 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:17:33.057875 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKpibgvnhv
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=fkruh
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 462 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKpibgvnhv
+To: <sip:@>;tag=jjdrw
+From: <sip:@>;tag=fkruh
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 462 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:18:03.574751 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKcatbrvrv
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=etjcl
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 463 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKcatbrvrv
+To: <sip:@>;tag=adnun
+From: <sip:@>;tag=etjcl
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 463 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:18:34.081829 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKbuwkfzbb
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=eeomb
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 464 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKbuwkfzbb
+To: <sip:@>;tag=gwnii
+From: <sip:@>;tag=eeomb
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 464 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+
++++ 7-11-2023 10:19:04.632074 INFO NORMAL t_transaction_mgr::handle_event_user
+Cannot resolve destination for:
+REGISTER sip: SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKwlzypmuc
+Max-Forwards: 70
+To: <sip:@>
+From: <sip:@>;tag=rkbsc
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 465 REGISTER
+Contact: <sip:@0.0.0.0>;expires=3600
+Allow: INVITE,ACK,BYE,CANCEL,OPTIONS,PRACK,REFER,NOTIFY,SUBSCRIBE,INFO,MESSAGE
+User-Agent: Twinkle/1.10.2
+Content-Length: 0
+
+
+Send internal:
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP 0.0.0.0;rport;branch=z9hG4bKwlzypmuc
+To: <sip:@>;tag=tyqfb
+From: <sip:@>;tag=rkbsc
+Call-ID: ijjkojdrefqjdja@dms
+CSeq: 465 REGISTER
+Server: Twinkle/1.10.2
+Content-Length: 0
+
+---
+

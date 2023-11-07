@@ -11,16 +11,22 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/^$
+~MSle0~/live
 
 # Last Substitute Search Pattern:
-~MSle0~&^$
+~MSle0&^$
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1699264498,,"q"
+|2,0,1699345583,,"q"
 :wq
-|2,0,1699262930,,"wq"
+|2,0,1699345367,,"wq"
+:qa
+|2,0,1699340937,,"qa"
+:wa
+|2,0,1699340727,,"wa"
+:root@dms:~# /etc/init.d/asterisk startStarting asterisk (via systemctl): asterisk.service.
+|2,0,1699339292,,"root@dms:~# /etc/init.d/asterisk startStarting asterisk (via systemctl): asterisk.service."
 :g/^$/d
 |2,0,1699262906,,"g/^$/d"
 :g/^\s*;/d
@@ -37,6 +43,8 @@
 |2,0,1698995887,,".w"
 
 # Search String History (newest to oldest):
+?/live
+|2,1,1699339700,47,"live"
 ? ^$
 |2,1,1699262906,,"^$"
 ? ^\s*;
@@ -49,18 +57,22 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	
-|3,1,1,1,1,0,1699262906,""
+"1	LINE	0
+	iface lo inet loopback
+	auto eth0
+|3,0,1,1,2,0,1699340751,"iface lo inet loopback","auto eth0"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1699262906,""
+	# The primary network interface
+|3,0,2,1,2,0,1699340751,"","# The primary network interface"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1699262906,""
+	iface eth0 inet static
+		address 172.20.10.86
+|3,0,3,1,2,0,1699340749,"iface eth0 inet static","	address 172.20.10.86"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1699262906,""
+		netmask 255.255.252.0
+		gateway 172.20.11.25
+|3,0,4,1,2,0,1699340749,"	netmask 255.255.252.0","	gateway 172.20.11.25"
 "5	LINE	0
 	
 |3,0,5,1,1,0,1699262906,""
@@ -76,270 +88,293 @@
 "9	LINE	0
 	
 |3,0,9,1,1,0,1699262906,""
-"-	CHAR	0
-	#
-|3,0,36,0,1,0,1699262581,"#"
+""-	CHAR	0
+		gateway 172.20.11.25
+|3,1,36,0,1,0,1699340905,"	gateway 172.20.11.25"
 
 # File marks:
-'0  1  0  /etc/asterisk/module.conf
-|4,48,1,0,1699264498,"/etc/asterisk/module.conf"
+'0  38  0  /etc/asterisk/sip.conf
+|4,48,38,0,1699345583,"/etc/asterisk/sip.conf"
 '1  28  14  /etc/asterisk/sip.conf
-|4,49,28,14,1699262930,"/etc/asterisk/sip.conf"
-'2  8  0  /etc/default/asterisk
-|4,50,8,0,1699262704,"/etc/default/asterisk"
-'3  8  0  /etc/default/asterisk
-|4,51,8,0,1699262602,"/etc/default/asterisk"
-'4  8  0  /etc/default/asterisk
-|4,52,8,0,1699262593,"/etc/default/asterisk"
-'5  8  0  /etc/default/asterisk
-|4,53,8,0,1699262593,"/etc/default/asterisk"
-'6  1  0  /etc/hosts
-|4,54,1,0,1699261008,"/etc/hosts"
+|4,49,28,14,1699345497,"/etc/asterisk/sip.conf"
+'2  28  14  /etc/asterisk/sip.conf
+|4,50,28,14,1699345497,"/etc/asterisk/sip.conf"
+'3  28  14  /etc/asterisk/sip.conf
+|4,51,28,14,1699345375,"/etc/asterisk/sip.conf"
+'4  28  14  /etc/asterisk/sip.conf
+|4,52,28,14,1699345375,"/etc/asterisk/sip.conf"
+'5  9  21  /etc/network/interface
+|4,53,9,21,1699341661,"/etc/network/interface"
+'6  9  21  /etc/network/interface
+|4,54,9,21,1699341645,"/etc/network/interface"
 '7  1  0  /etc/network/interface
-|4,55,1,0,1699242530,"/etc/network/interface"
-'8  143  0  /etc/init.d/asterisk
-|4,56,143,0,1699001598,"/etc/init.d/asterisk"
-'9  43  22  /etc/default/asterisk
-|4,57,43,22,1699001008,"/etc/default/asterisk"
+|4,55,1,0,1699341190,"/etc/network/interface"
+'8  1  0  /etc/network/interface
+|4,56,1,0,1699341190,"/etc/network/interface"
+'9  1  0  /etc/network/interface
+|4,57,1,0,1699341190,"/etc/network/interface"
 
 # Jumplist (newest first):
--'  1  0  /etc/asterisk/module.conf
-|4,39,1,0,1699264498,"/etc/asterisk/module.conf"
+-'  38  0  /etc/asterisk/sip.conf
+|4,39,38,0,1699345583,"/etc/asterisk/sip.conf"
 -'  28  14  /etc/asterisk/sip.conf
-|4,39,28,14,1699262930,"/etc/asterisk/sip.conf"
+|4,39,28,14,1699345529,"/etc/asterisk/sip.conf"
 -'  28  14  /etc/asterisk/sip.conf
-|4,39,28,14,1699262930,"/etc/asterisk/sip.conf"
--'  29  0  /etc/asterisk/sip.conf
-|4,39,29,0,1699262906,"/etc/asterisk/sip.conf"
--'  29  0  /etc/asterisk/sip.conf
-|4,39,29,0,1699262906,"/etc/asterisk/sip.conf"
--'  1  0  /etc/asterisk/sip.conf
-|4,39,1,0,1699262861,"/etc/asterisk/sip.conf"
--'  1  0  /etc/asterisk/sip.conf
-|4,39,1,0,1699262861,"/etc/asterisk/sip.conf"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262704,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262704,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262704,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262704,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262602,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262602,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262602,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262602,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262593,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262593,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262593,"/etc/default/asterisk"
--'  8  0  /etc/default/asterisk
-|4,39,8,0,1699262593,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  43  22  /etc/default/asterisk
-|4,39,43,22,1699262561,"/etc/default/asterisk"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1699261008,"/etc/hosts"
+|4,39,28,14,1699345497,"/etc/asterisk/sip.conf"
+-'  28  14  /etc/asterisk/sip.conf
+|4,39,28,14,1699345375,"/etc/asterisk/sip.conf"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341661,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341661,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341661,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341661,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341661,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341661,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341661,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341661,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341645,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341645,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341645,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341645,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341645,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341645,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341645,"/etc/network/interface"
+-'  9  21  /etc/network/interface
+|4,39,9,21,1699341645,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341322,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341190,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341190,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341190,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341190,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341190,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341190,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341190,"/etc/network/interface"
 -'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
--'  1  0  /etc/network/interface
-|4,39,1,0,1699242530,"/etc/network/interface"
+|4,39,1,0,1699341190,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  10  0  /etc/network/interface
+|4,39,10,0,1699340945,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
+-'  2  0  /etc/network/interface
+|4,39,2,0,1699340890,"/etc/network/interface"
 
 # History of marks within files (newest to oldest):
 
-> /etc/asterisk/module.conf
-	*	1699264478	0
-	"	1	0
-
 > /etc/asterisk/sip.conf
-	*	1699262924	0
-	"	28	14
+	*	1699345579	0
+	"	38	0
 	.	29	0
 	+	29	0
 
+> /etc/network/interface
+	*	1699341657	0
+	"	9	21
+	^	9	22
+	.	9	22
+	+	3	20
+	+	3	19
+	+	3	22
+	+	3	0
+	+	10	0
+	+	2	1
+	+	1	1
+	+	9	22
+
+> /etc/asterisk/asterisk.conf
+	*	1699339733	0
+	"	97	22
+	^	11	65
+	.	97	0
+	+	11	64
+	+	97	0
+
 > /etc/default/asterisk
-	*	1699262699	0
-	"	8	0
+	*	1699338850	0
+	"	45	0
 	^	44	26
-	.	8	0
+	.	9	0
 	+	8	0
 	+	9	0
 	+	44	26
 	+	9	0
 	+	8	0
+	+	9	0
+
+> /etc/init.d/asterisk
+	*	1699338113	0
+	"	20	0
+	.	143	0
+	+	143	0
+
+> ~/sip.conf
+	*	1699336871	0
+	"	1	0
+
+> /etc/asterisk/module.conf
+	*	1699264478	0
+	"	1	0
 
 > /etc/hosts
 	*	1699260921	0
 	"	1	0
-
-> /etc/network/interface
-	*	1699242453	0
-	"	1	0
-
-> /etc/init.d/asterisk
-	*	1699001513	0
-	"	143	0
-	.	143	0
-	+	143	0
 
 > ~/asterisk-20.5.0/contrib/init.d/etc/default/asterisk
 	*	1698998186	0
