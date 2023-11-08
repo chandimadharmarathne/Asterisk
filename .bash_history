@@ -779,3 +779,306 @@ vi /etc/network/interface
 cd /etc/network/
 ls
 vi /etc/network/interface
+cd
+ipconf
+ifconf
+ifconfig
+vi /etc/network/interface
+cd /etc/network/
+ls
+rm interface
+ls
+cd
+vi /etc/network/interface
+sudo nano gedit sip.conf
+vi /etc/network/interface
+service network restart
+ip addr
+ping www.google.de
+ifconfig
+iprow
+ip ro
+asterisk -rvvv
+sudo nano gedit sip.conf
+asterisk -rvvv
+/etc/init.d/asterisk stop
+/etc/init.d/asterisk start
+asterisk -rvvv
+sudo nano gedit sip.conf
+module show like chan_sip
+asterisk -r
+asterisk -rvvv
+asterisk -r
+asterisk -rvvv
+vi /etc/asterisk/sip.conf
+sudo nano gedit sip.conf
+cd /etc/asterisk/
+ls
+sudo nano gedit sip.config
+vi sip.conf
+sudo nano gedit sip.conf
+vi sip.conf
+sudo nano gedit sip.conf
+cd
+asterisk -rvvv
+cd /usr/lib/asterisk/modules
+ls
+cd
+asterisk -rvvv
+apt -install twinkle
+apt-get install twinkle
+if config ifconfig; exit
+apt-get install twinkle
+apt-get install twinkle/precise
+cd /etc/
+ls
+cd
+/etc/twinkle/chandima.sip
+ls /etc/twinkle
+ls -l /etc/twinkle/chandima.sip
+sudo mkdir /etc/twinkle
+sudo nano /etc/twinkle/chandima.sip
+twinkle --config /etc/twinkle/chandima.sip
+twinkle -H --config /etc/twinkle/chandima.sip
+sudo apt-get install libxcb1
+twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
+mkdir /root/.twinkle
+cd /root/
+twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
+sudo chown -R root:root /root/.twinkle
+sudo chmod -R 700 /root/.twinkle
+sudo chown -R root:root /root/.twinkle
+sudo chmod -R 700 /root/.twinkle
+sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
+sudo touch /root/.twinkle/twinkle.cfg
+sudo chown root:root /root/.twinkle/twinkle.cfg
+sudo chmod 600 /root/.twinkle/twinkle.cfg
+sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default" -f /root/.twinkle/twinkle.cfg
+sudo netstat -tuln | grep 5060
+sudo service asterisk stop  # Replace with the service name of the conflicting application
+sudo service asterisk stop  
+ps aux | grep twinkle
+twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default" -f /root/.twinkle/twinkle.cfg
+sudo service asterisk start
+sudo service asterisk status
+asterisk -rvvvv
+sudo usermod -a -G audio chandima
+sudo usermod -a -G audio dms
+/.twinkle/twinkle
+ls
+/root/.twinkle/twinkle
+twinkle
+/root/.twinkle/twinkle
+which twinkle
+cd /usr/bin/
+ls
+cd twinkle
+sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
+sudo service asterisk stop  
+sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
+sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "255.255.255.255" -c "default"
+ifconfig
+sudo service asterisk status
+sudo service asterisk start
+sudo service asterisk status
+asterisk -rvvvv
+cd
+sudo service asterisk status
+asterisk -rvvvv
+apt-get install alsa-tools
+sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
+sudo service asterisk stop
+sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
+sudo service asterisk status
+sudo service asterisk start
+sudo service asterisk status
+asterisk -rvvvv
+sudo twinkle -c "asterisk" -e "asterisk" -u "asterisk" -p "12345" -s "172.20.10.86" -c "default"
+sudo service asterisk status
+cd /usr/bin/
+sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
+sudo service asterisk stop
+sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
+twinkle --kill
+twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default" -f /root/.twinkle/chandima.cfg
+twinkle --kill
+cd
+apt-get install twinkle
+cd /usr/bin/
+ls
+twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default" -f /root/.twinkle/chandima.cfg
+cd /root/
+cd /twinkle
+cd /.twinkle
+ls
+git init
+git add .
+git commit -m "2023NOV07 end day commit"
+git branch
+git checkout -b 2023NoV07
+git remote set-url origin https://chandimadharmarathne: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@github.com/chandimadharmarathne/Asterisk.git
+git remote -v
+git remote add origin https://github.com/chandimadharmarathne/Asterisk.git
+git remote set-url origin https://chandimadharmarathne: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@github.com/chandimadharmarathne/Asterisk.git
+git branch
+git remote -v
+git push -u origin 2023NoV07
+cd asterisk-20.5.0
+git push -u origin 2023NoV07
+git branch
+git remote -v
+git checkout -b 2023NoV07Asterisk
+git commit -m "2023NOV07 asterisk file"
+git push -u origin 2023NoV07Asterisk
+git remote set-url origin https://chandimadharmarathne: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@github.com/chandimadharmarathne/Asterisk.git
+git push -u origin 2023NoV07Asterisk
+cd
+cd
+ifconfig
+twinkle
+status twinkle
+apt-get install twinkle/precise
+apt-get install twinkle
+apt-get install twinkle/precise
+cd asterisk-20.5.0
+git init
+cd
+sudo service asterisk status
+sudo service asterisk start
+sudo service asterisk status
+asterisk -rx "sip show registry"
+asterisk -rvv
+kill-- teinkle
+twinkle --kill
+asterisk -rvv
+sudo service asterisk status
+asterisk -rvv
+cd /etc/asterisk
+ls
+sudo nano modules.conf
+asterisk -rvv
+cd /usr/lib/
+cd /asterisk/modules/
+ls
+cd /asterisk
+cd asterisk
+ls
+cd modules
+ls
+asterisk -rvv
+cp chan_pjsip.so chan_sip.so
+ls
+sudo nano chan_sip.so
+asterisk -rvv
+chown -R asterisk: chan_sip.so
+asterisk -rvv
+cd
+cd /etc/asterisk/
+ls
+sudo nano pjsip.conf
+asterisk -rvv
+sudo service asterisk status
+sudo service asterisk stop
+sudo service asterisk start
+sudo service asterisk status
+sudo service asterisk restart
+sudo service asterisk status
+asterisk -rvv
+cp pjsip.conf pjsipOld.conf
+ls
+sudo nano pjsip.conf
+sudo service asterisk status
+sudo service asterisk restart
+sudo service asterisk status
+asterisk -rvv
+sudo nano pjsip.conf
+ls
+sudo nano res_pjsip_outbound_registration.so
+ls
+netstat -anp | grep 5060
+sudo nano pjsip.conf
+netstat -anp | grep 5061
+kill -9 5060
+kill -9 PID
+netstat -anp | grep 5060
+sudo service twinkle status
+netstat -anp | grep 5060
+sudo nano pjsip.conf
+cd
+ifconf
+ifconfig
+cd /etc/asterisk
+ls
+sudo nano pjsipOld.conf
+cp pjsip.conf pjsipChandima.conf
+ls
+dp pjsip.conf
+rm pjsip.conf
+ls
+cp pjsipOld.conf pjsip.conf
+ls
+
+ifconfig
+asterisk -rvvvv
+sudo nano service asterisk stop
+sudo service asterisk stop
+sudo service asterisk status
+sudo service asterisk start
+asterisk -rvvvv
+sudo service asterisk stop
+sudo service asterisk start
+asterisk -rvvvv
+sudo service asterisk stop
+sudo service asterisk start
+asterisk -rvvvv
+sudo service asterisk stop
+sudo service asterisk status
+sudo service asterisk start
+sudo service asterisk status
+asterisk -rvvvv
+sudo service asterisk stop
+sudo service asterisk status
+sudo service asterisk start
+sudo service asterisk status
+asterisk -rvvvv
+sudo service asterisk stop
+sudo service asterisk start
+sudo service asterisk status
+asterisk -rvvvv
+sudo service asterisk stop
+sudo service asterisk start
+asterisk -rvvvv
+sudo service asterisk stop
+sudo service asterisk start
+sudo service asterisk status
+asterisk -rvvvv
+sudo service asterisk stop
+sudo service asterisk start
+asterisk -rvvvv
+cd
+sudo ufw status
+sudo ufw enable
+sudo ufw status
+sudo ufw 5060:5061/udp
+sudo ufw allow 5060:5061/udp
+sudo ufw allow 10000:20000/udp
+sudo ufw status
+sudo vi /etc/asterisk/pjsip.conf
+sudo mv /etc/asterisk/pjsip.conf /etc/asterisk/pjsip.confdefault
+sudo nano /etc/asterisk/pjsip.conf
+sudo vi /etc/asterisk/pjsip.conf
+cd
+systemctl status openssh
+systemctl status opensshd
+systemctl status ssh
+systemctl status utm
+systemctl status utf
+ip ro
+telnet 172.20.10.86 22
+ip ro
+ufw --list
+ufw - status
+ufw -tatus
+ufw status
+ufw disable
+ufw status
