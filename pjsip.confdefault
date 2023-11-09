@@ -1,0 +1,172 @@
+;================================ TRANSPORTS ==
+; Our primary transport definition for UDP communication behind NAT.
+[transport-udp-nat]
+type = transport
+protocol = udp
+bind = 0.0.0.0
+; NAT settings
+;local_net = 10.0.0.0/8
+;external_media_address = 203.0.113.1
+;external_signaling_address = 203.0.113.1
+
+;================================ CONFIG FOR SIP ITSP ==
+
+; Registration for Digium Cloud Services Account
+
+[dcs-trunk]
+type = registration
+outbound_auth = dcs-trunk-auth
+server_uri = sip:172.20.10.86
+;client_uri = sip:myaccountID@sip.digiumcloud.net
+retry_interval = 60
+
+[dcs-trunk-auth]
+type = auth
+auth_type = userpass
+username = chandima ;========== THIS IS EDIT BY CHANDIMA========
+password = 12345	;============== THIS IS EDIT BY CHANDIMA ============
+
+; Endpoint for Digium Cloud Services account
+
+[dcs-endpoint]
+type=endpoint
+context = DCS-Incoming
+allow = !all,g722,ulaw
+outbound_auth = dcs-auth
+aors = dcs-aor
+direct_media = no
+from_domain = sip.172.20.10.86
+
+[dcs-auth]
+type = auth
+auth_type = userpass
+username = chandima
+password = 12345
+realm = sip.172.20.10.86
+
+[dcs-aor]
+type = aor
+contact = sip:172.20.10.86:5061
+
+[dcs-identify]
+type=identify
+endpoint = dcs-endpoint
+;match = 8.17.32.12
+
+;[customertemplate](!)
+;language=en
+;deny=0.0.0.0/0.0.0.0
+;trust_id_inbound=yes
+;send_rpid=no
+;transport=tcp_transport
+;rtcp_mux=no
+;call_group=
+;pickup_group=
+;disallow=all
+;allow=ulaw,alaw,gsm
+;mailboxes=300
+;permit=0.0.0.0/0.0.0.0
+;ice_support=no
+;use_avpf=no
+;dtls_cert_file=
+;dtls_private_key=
+;dtls_ca_file=
+;dtls_setup=actpass
+;dtls_verify=no
+;media_encryption=no
+;message_context=
+;subscribe_context=
+;allow_subscribe=yes
+;rtp_symmetric=yes
+;force_rport=yes
+;rewrite_contact=yes
+;direct_media=no
+;media_use_received_transport=no
+
+;[167](customtemplate)
+;context=internal
+;auth=167
+;aors=167
+;type=endpoint
+;callerid="linuxhelp" <167>
+
+;[168](customtemplate)
+;context=internal
+;auth=168
+;aors=168
+;type=endpoint
+;callerid="linuxhelp2" <168>
+
+
+;================================ ENDPOINT TEMPLATES ==
+; Our primary endpoint template for internal desk phones.
+[endpoint-internal-d70](!)
+type = endpoint
+context = Long-Distance
+allow = all,g722,ulaw
+direct_media = no
+trust_id_outbound = yes
+device_state_busy_at = 1
+dtmf_mode = rfc4733
+
+[auth-userpass](!)
+type = auth
+auth_type = userpass
+
+[aor-single-reg](!)
+type = aor
+max_contacts = 1
+
+;================================ ENDPOINT DEFINITIONS ==
+; Below are the definitions for all staff devices, listed by department.
+;
+; Super Awesome Company uses the MAC address of their devices for the auth
+; username and the extension number for the name of the endpoint, auth and
+; aor objects. If your phones must use the same user ID and auth name then
+; you will need to customize the endpoints accordingl
+;================================ SALES STAFF ==
+
+;================================
+;Garnet Claude
+;Sales Associate
+
+[1105](endpoint-internal-d70)
+auth = 1105
+aors = 1105
+callerid = Garnet Claude <1105>
+
+[1105](auth-userpass)
+password = Q7rAphatRusteSW
+username = 5187E6D311BE
+
+[1105](aor-single-reg)
+mailboxes = 1105@example
+
+;================================
+;Franny Ocean
+;Sales Associate
+
+[1112](endpoint-internal-d70)
+auth = 1112
+aors = 1112
+callerid = Franny Ocean <1112>
+
+[1112](auth-userpass)
+password = nefReSTAq8phaph
+username = ACC6BC73A990
+
+[1112](aor-single-reg)
+mailboxes = 1112@example
+
+;================================ Chandima ====================
+[111](endpoint-internal-d70)
+auth = 111
+aors = 111
+callerid = Chandima <111>
+
+[111](auth-userpass)
+password = 12345
+username = CHANDIMA
+
+[111](aor-single-reg)
+mailboxes = 111@gmail.com 
