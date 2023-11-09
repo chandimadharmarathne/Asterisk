@@ -1,3 +1,5 @@
 [user]
 	email = chandimadarmarathna@gmail.com
 	name = chandimadharmarathne
+[safe]
+	directory = /etc/asterisk

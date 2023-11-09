@@ -1082,3 +1082,86 @@ ufw -tatus
 ufw status
 ufw disable
 ufw status
+cd
+sudo ufw status
+sudo nano pjsip.conf
+cd /etc/asterisk
+ls
+sudo nano pjsip.conf
+asterisk -rvvvv
+sudo nano pjsip.conf
+asterisk -rvvvv
+cd
+sudo ufw status
+sudo ufw enable
+sudo ufw allow 22/tcp
+sudo ufw status
+asterisk -rvvvv
+sudo service asterisk stop
+sudo service asterisk status
+sudo service asterisk start
+sudo service asterisk status
+asterisk -rvvvv
+cd /etc/asterisk/
+ls
+sudo mv extensions.conf extensions.confdefault
+ls
+sudo nano extensions.conf
+sudo asterisk -rvvv
+sudo ufw status
+sudo ufw status numbered
+sudo ufw delete 1
+sudo ufw status numbered
+sudo ufw delete 1
+sudo ufw status numbered
+sudo ufw delete 2
+sudo ufw status numbered
+sudo ufw delete 2
+sudo ufw status numbered
+sudo ufw allow in on eth0 from 172.20.10.86
+sudo ufw status numbered
+sudo ip addr show
+sudo ufw status numbered
+sudo ufw delete 2
+sudo ufw allow in on ens160 from 172.20.10.86
+sudo ufw status numbered
+sudo asterisk -rvvv
+git init
+git add .
+git branch
+git commit -m "2023-11-8 asterisk"
+git branch 2023-11-8-asterisk
+cd
+git init
+git branch 2023-11-8-asterisk
+git checkout -b 2023-11-8-asterisk
+git checkout 2023-11-8-asterisk
+git add .
+git commit -m "2023-11-8 asterisk"
+git push origin 2023-11-8-asterisk
+ls
+cd /etc/
+ls
+cd asterisk
+ls
+git init
+git add .
+git checkout 2023-11-8-asterisk2
+git commit -m "2023-11-8 asterisk2"
+git branch 2023-11-8-asterisk2
+git push origin 2023-11-8-asterisk2
+git push origin 2023-11-8-asterisk
+git status
+git add .
+ls
+sudo apt-get install git
+git config --global user.name "chandimadharmarathne"
+git config --global user.email "chandimadarmarathna@gmail.com"
+git init
+git add .
+git commit -m "3rd commit"
+git push -u origin master
+cd
+cd /etc/asterisk
+ls
+sudo nano pjsip.conf
