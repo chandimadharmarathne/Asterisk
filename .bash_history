@@ -1165,3 +1165,174 @@ cd
 cd /etc/asterisk
 ls
 sudo nano pjsip.conf
+cd
+ping example.com
+ping sip.linphone.org
+sudo nano pjsip.conf
+cd /etc/asterisk/
+ls
+sudo nano pjsip.conf
+ping sip.linphone.org
+sudo nano pjsip.conf
+ping
+ifcpnf
+ifconf
+ip config
+ip conf
+if conf
+ifconfig -a
+sudo nano pjsip.conf
+module show
+module show like chan_pjsip
+cd
+module show like chan_pjsip
+cd /etc/asterisk
+ls
+cd
+asterisk -rx module show like chan_sip.so
+asterisk -rx "core show like chan_sip"
+asterisk -rx "core show channels"
+cd /etc/asterisk
+ls
+sudo nano modules.conf
+sudo nano pjsip.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+git init
+dir
+git add .
+git config --global --add safe.directory /etc/asterisk
+git add .
+git checkout -b 2023-11-9
+git add .
+git commit -m "2023-11-9-first commit"
+git push origin 2023-11-9
+git remote -v
+git remote add origin https://github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-9
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-9
+cd
+git add .
+git checkout -b 2023-11-9B
+git commit -m "2023-11-9-second commit"
+git push origin 2023-11-9B
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-9B
+cd asterisk-20.5.0
+git add .
+git commit -m "2023-11-9-third commit"
+git checkout -b 2023-11-9C
+git commit -m "2023-11-9-third commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-9C
+cd
+sudo asterisk -rvvv
+sudo service asterisk status
+sudo service asterisk stop
+sudo service asterisk status
+sudo service asterisk start
+sudo asterisk -rvvv
+netstat
+netstat -p
+systemctl status asterisk
+pa aux | grep asterisk
+netstat -anp | grep asterisk
+cd /etc/asterisk/
+ls
+sudo nano pjsip.conf
+systemctl status asterisk
+systemctl stop asterisk
+systemctl status asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+ip config
+if conf 
+ipconf
+asterisk -rvvvv
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+sudo ufw status
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl status asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
