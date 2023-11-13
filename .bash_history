@@ -1336,3 +1336,152 @@ asterisk -rvvvv
 systemctl stop asterisk
 systemctl start asterisk
 asterisk -rvvvv
+cd
+cd /etc/asterisk/
+ls
+sudo nano pjsip.conf
+sudo nano modules.conf
+sudo nano pjsip.conf
+sudo nano modules.conf
+sudo nano pjsip.conf
+sudo nano pjproject.conf
+sudo nano pjsip.conf
+cd /usr/local/etc/asterisk/
+cd /usr/local/etc/
+ls
+cd
+cd /usr/
+ls
+cd local
+ls
+cd etc
+ls
+dir
+ls
+cd
+cd /etc/asterisk/
+ls
+sudo nano pjsip.conf
+sudo nano modules.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+ls
+sudo nano feature.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+sudo nano queues.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+sudo ip addr show
+sudo nano pjsip.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+sudo nano extensions.conf
+git add .
+git checkout -b 2023-Nov-10
+git commit -m "2023-Nov-11"
+git push origin 2023-Nov-10
+cd
+git add .
+git checkout -b 2023-Nov-10-B
+git commit -m "2023-Nov-11-B"
+git checkout -b 2023-Nov-10-B
+git push origin 2023-Nov-10-B
+cd asterisk-20.5.0
+git add .
+git checkout -b 2023-Nov-10-C
+git commit -m "2023-Nov-11-C"
+git push origin 2023-Nov-10-C
+cd
+ls
+cd /etc/asterisk/
+ls
+systemctl status asterisk
+asterisk -rvvvv
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+cd
+touch /etc/asterisk/features.conf
+asterisk -rvvvv
+ls /etc/asterisk/samples/
+cd /etc/asterisk/
+ls
+cd samples
+asterisk -rvvvv
+systemctl status asterisk
+systemctl stop asterisk
+systemctl status asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rvvvv
+systemctl stop asterisk
+systemctl status asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl status asterisk
+systemctl restart asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl restart asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
