@@ -1485,3 +1485,246 @@ systemctl stop asterisk
 systemctl start asterisk
 systemctl status asterisk
 asterisk -rcv
+cd
+cd /etc/asterisk/
+ls
+sudo nano extension.conf
+sudo nano extensions.conf
+asterisk -rcv
+
+sudo nano pjsip.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+sudo nano extensions.conf
+git init
+git add .
+git checkout -b 2023-11-13-A
+git commit -m "11/13 first commit"
+git push origin 2023-11-13-A
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-13-A
+cd
+git init
+git add .
+git commit -m "11/13 second commit"
+git push origin 2023-11-13-B
+git checkout -b 2023-11-13-B
+git push origin 2023-11-13-B
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-13-B
+cd asterisk
+ls
+cd asterisk-20.5.0
+ls
+git init
+git add .
+git checkout -b 2023-11-13-C
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-13-C
+cd
+systemctl status asterisk
+asterisk -rcv
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl status asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl status asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl start asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+cd
+cd /etc/asterisk
+ls
+sudo nano pjsip.conf
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+cs
+cd
+wherels sounds
+whereis sounds
+locate sounds
+apt install plocate
+locate sounds
+cd /var/lib/asterisk/sounds/en/
+ls
+cd
+cd /var/log/asterisk
+ls
+cd queue_log
+sudo nano queue_log
+cd
+sudo ufw status
+sudo ufw allow 22/udp
+sudo ufw status
+
+sudo ufw status
+sudo ufw reload
+cd /var/log/asterisk
+ls
+cd
+cd /var/lib/asterisk
+ls
+cd sounds
+ls
+cd en
+ls
+cd
+ls
+mkdir my
+ls
+cd my
+ls
+wget https://raw.githubusercontent.com/chandimadharmarathne/Asterisk/main/welcome.vox
+l
+ls
+sudo cp welcome.vox /var/lib/asterisk/sounds/en/
+cd /var/lib/asterisk/sounds/en
+ls
+wget https://raw.githubusercontent.com/chandimadharmarathne/Asterisk/main/Salli-Sarith-and-Surith-_SONG.LK_.vox
+wget https://raw.githubusercontent.com/chandimadharmarathne/Asterisk/main/welcome2.gsm
+git checkout -b 2023-11-13-A
