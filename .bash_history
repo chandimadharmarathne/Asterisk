@@ -1728,3 +1728,159 @@ ls
 wget https://raw.githubusercontent.com/chandimadharmarathne/Asterisk/main/Salli-Sarith-and-Surith-_SONG.LK_.vox
 wget https://raw.githubusercontent.com/chandimadharmarathne/Asterisk/main/welcome2.gsm
 git checkout -b 2023-11-13-A
+cd
+cd /var/lib/asterisk
+ls
+cd
+cd /etc/lib/asterisk/
+cd /etc/
+ls
+cd lib
+ls
+cd 
+cd /etc/var/asterisk/
+cd /var/log/asterisk
+ls
+cd
+cd /etc/asterisk
+ls
+systemctl start asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+cd
+cd /etc/asterisk/
+l
+ls
+sudo nano extensions.conf
+sudo nano pjsip.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+sudo nano extensions.conf
+sudo nano pjsip.conf
+sudo nano extensions.conf
+git init
+git add .
+git checkout branch -b 2023-11-14-B
+git checkout -b 2023-11-14-A
+git commit -m "2023-11-14 First commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-14-A
+cd
+git checkout -b 2023-11-14-B
+git commit -m "2023-11-14 Second commit"
+git add .
+git commit -m "2023-11-14 Second commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-14-B
+cd asterisk-20.5
+ls
+cd asterisk-20.5.0
+ls
+git add .
+git checkout -b 2023-11-14-C
+git commit -m "2023-11-14 Third commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-14-C
