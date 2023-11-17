@@ -1,0 +1,12 @@
+[general]
+dateformat=%F %T
+
+
+[logfiles]
+
+console = verbose,notice,warning,error
+
+;messages = notice,warning,error
+;full = verbose,notice,warning,error,debug
+;security = security
+messages => /var/log/asterisk/messages

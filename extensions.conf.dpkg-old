@@ -1,0 +1,198 @@
+[general]
+static=yes
+writeprotect=no
+autofallthrough=yes
+
+
+;exten => exten_number,priority,application(arg1,arg2,...)
+
+;- X - any digit from 0-9
+;- Z - any digit from 1-9
+;- N - any digit from 2-9
+;- [0123] - any digit in the brakets (in the example: 0,1,2,3)
+;- . - (dot) wildcard, matches everything remaining
+;  _1234. - matches anything starting with 1234
+
+[from_external]
+
+
+exten => s,1,NoOp(Incoming call to 's' extension in 'from_external' context)
+   same => n,Answer()
+   same => n,Playback(welcome)  ; Assuming 200 is the extension for user chandima
+   same => n,WaitExten(15)
+
+
+exten => 1,1,NoOp(User Pressed 1)
+	same => n,Verbose(1, User pressed 1)
+	same => n,Playback(welcome2)
+	same => n,WaitExten(15)
+	same => n,Queue(test)
+
+exten => 2,1,NoOp(User Pressed 2)
+	same => n,Verbose(1, User pressed 2)
+	same => n,Set(CONFID=${UNIQUEID})
+	same => n,Answer()
+	same => n,Playback(welcome2)
+	same => n,Dial(pjsip/chandima1,30,tTmL(${CONFID}))
+	same => n,Hangup()
+	same => n,Verbose(1, Call forwarding... one)
+
+;=============== Save call details in MYSQL Database
+
+; Store call details in the cdr table
+        same => n,MYSQL(Connect connid localhost dms password asterisk)
+        same => n,MYSQL(Query resultid ${connid} INSERT INTO cdr (calldate, clid, src, dst, dcontext, channel, dstchannel, lastapp, lastdata, duration, billsec, disposition, amaflags, accountcode, uniqueid, userfield) VALUES (NOW(), '${CALLERID(name)}', '${CALLERID(num)}', 'chandima1', '', '${CHANNEL}', '${DSTCHANNEL}', 'Dial', '${EXTEN}', 0, 0, 'answered', 0, '', '${CONFID}', ''))
+        same => n,MYSQL(Disconnect ${connid})
+
+
+
+
+
+;================ call details to a call_log.txt file ======
+
+        same => n,Set(FILENAME=./call_log.txt)
+        same => n,Set(CALL_DETAILS=${STRFTIME(${EPOCH},,%Y-%m-%d %H:%M:%S)} - Caller ID: ${C>
+        same => n,WriteFile(${FILENAME},${CALL_DETAILS},a)
+	 same => n,Set(TEST_MESSAGE=Testing logging)
+        same => n,WriteFile(${FILENAME},${TEST_MESSAGE},a)
+
+
+
+;	same => s,2,NoOp(Incoming call to 's' extension in 'from_external' context)
+;	same => n,Hangup()
+       ; same => n,Playback(welcome)  ; Assuming 200 is the extension for user chandima
+       ; same => n,WaitExten(15)
+
+
+exten => 2,n,Dial(PJSIP/chandima,30,m(default))  ; Dial chandima while keeping the original call up
+   same => n,Hangup()
+
+exten => 3,1,NoOp(User Pressed 3)
+   same => n,Verbose(1, User Pressed 3)
+   same => n,Queue(bla)
+
+exten => 4,1,NoOp(User Pressed 4)
+   same => n,Verbose(1, User Pressed 4)
+   same => n,Hangup()
+;============================================
+
+
+;exten => _0787733966,1,NoOp(Call from Provider)
+;exten => _0787733966,n,Answer()
+;exten => _0787733966(PJSIP/200,30)
+;exten => _0787733966,n,Hangup()
+
+;include => internal
+;exten => 015158000,1,Answer
+;exten => 015158000,n,Dial(PJSIP/200,30)
+;exten => 015158000,n,Hangup(
+
+[from-internal]
+exten => _+X.,1,NoOp(Incoming call from internal)
+	same => n,Dial(PJSIP/linphone/${EXTEN})
+	same => n,Hangup()
+
+
+[internal]
+exten => _NXX,1,Answer()
+exten => _NXX,n,Dial(PJSIP/${EXTEN},30)
+exten => _NXX,n,Hangup()
+
+exten => chandima,1,Log(NOTICE,context: INTERNAL, CALL DIALING...)
+	same => n,Vxml(path to script)
+	same => n,Log(NOTICE,error z voximala: $["${VOXIMALA_ERROR}"])
+	same => n,Hangup
+
+
+;Eg 08031000180
+;exten => _XXXXXXXXXXX,1,Answer()
+;exten => _XXXXXXXXXXX,n,Set(CALLERID(num)=015158000)
+;exten => _XXXXXXXXXXX,n,Dial(PJSIP/${EXTEN}@015158000,30)
+;exten => _XXXXXXXXXXX,n,Hangup()
+
+;Eg 23408031000180
+;exten => _234XXXXXXXXXX,1,Answer()
+;exten => _234XXXXXXXXXX,n,Set(CALLERID(num)=015158000)
+;exten => _234XXXXXXXXXX,n,Dial(PJSIP/${EXTEN}@015158000,30)
+;exten => _234XXXXXXXXXX,n,Hangup()
+
+;Eg 94787733966
+;exten => _94XXXXXXXXX,1,Answer()
+;exten => _94XXXXXXXXX,n,Set(CALLERID(num)=0787733966)
+;exten => _94XXXXXXXXX,n,Dial(PJSIP/${EXTEN}@0787733966,30)
+;exten => _94XXXXXXXXX,n,Hangup()
+
+; Eg. 015158000
+;exten => _XXXXXXXXX,1,Answer()
+;exten => _XXXXXXXXX,n,Set(CALLERID(num)=015158000)
+;exten => _XXXXXXXXX,n,Dial(PJSIP/${EXTEN}@015158000,30)
+;exten => _XXXXXXXXX,n,Hangup
+
+
+;exten => _009.,1,NoOp(International Call)
+;exten => _009.,n,Answer()
+;exten => _009.,n,Set(CALLERID(num)=0787733966)
+;exten => _009.,n,Dial(PJSIP/${EXTEN}@0787733966,30)
+;exten => _009.,n,Hangup()
+
+;========================= Design Simple IVR =================================
+[ivr-1]
+
+exten => s,1,NoOp(ivr-1)
+	same => n,Answer()
+	same => n,Playback(ivr-1)
+	same => n,WaitExten(5)
+
+exten => 1,1,NoOp(User Pressed 1)
+	same => n,Verbose(1, User Pressed 1)
+	same => n,Queue(test)
+
+exten => 2,1,NoOp(User Pressed 2)
+	same => n,Verbose(1, User Pressed 2)
+	same => n,Queue(bla)
+
+[phones]
+
+exten => chandima,1,Goto(ivr-1,s,1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

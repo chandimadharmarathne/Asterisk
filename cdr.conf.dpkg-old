@@ -1,0 +1,37 @@
+[general]
+enable=yes
+
+[custom]
+; We log the unique ID as it can be useful for troubleshooting any issues
+; that arise.
+loguniqueid=yes
+
+[radius]
+;usegmtime=yes		; log date/time in GMT
+;loguniqueid=ye		; log uniqueid
+;loguserfield=yes	; log user field
+; Set this to the location of the radiusclient-ng configuration file
+; The default is /etc/radiusclient-ng/radiusclient.conf
+radiuscfg => /etc/radcli/radiusclient.conf
+
+
+[csv]
+usegmtime=yes
+loguniqueid=yes
+loguserfield=yes
+accountlogs=yes
+
+
+[global]
+enable=yes
+
+[cdr]
+implementation=mysql
+dbhost=localhost
+dbname=asterisk
+table=cdr
+password=password
+user=dms
+usegmtime=yes
+userfield=yes
+
