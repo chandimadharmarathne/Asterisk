@@ -1,467 +1,3 @@
-cd
-systemctl status apparmor
-systemctl stop apparmor
-systemctl disable apparmor
-systemctl status apparmor
-init 0
-cd
-passwd dms
-exit
-cd
-ip ro
-df -h
-cat /etc/issue
-cat /etc/os-release 
-cd
-ping www.gooogle.com
-exxig
-exit
-cd
-ip ro
-ping google.com
-ip ro
-sudo apt-get install build-essential
-cd ..
-cd :
-cd ..
-cd
-sudo apt-get install git-core subversion wget libjansson-dev sqlite autoconf automake libxml2-dev libncurses5-dev libtool
-cd
-cd/usr/src
-sudo wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-20-current.tar.gz
-sudo tar zxf asterisk-20-current.tar.gz
-cd asterisk-*/
-sudo contrib/scripts/get_mp3_source.sh
-sudo contrib/scripts/install_prereq install
-sudo ./configure
-sudo make menuselect
-sudo make -j2
-sudo make install
-sudo make samples
-sudo make config
-sudo sudo ldconfig
-sudo adduser --system --group --home /var/lib/asterisk --no-create-home --gecos "Asterisk PBX" asterisk
-sudo make basic-pbx
-sudo make config
-sudo ldconfig
-sudo adduser --system --group --home /var/lib/asterisk --no-create-home --gecos "Asterisk PBX" asterisk
-cd /etc/default/asterisk
-cd ..
-cd
-cd ..
-cd
-cd ..
-dir
-cd usr
-dir
-cd src
-sudo wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-20-current.tar.gz
-sudo tar zxf asterisk-20-current.tar.gz
-sudo contrib/scripts/get_mp3_source.sh
-sudo tar zxf asterisk-20-current.tar.gz
-sudo contrib/scripts/get_mp3_source.sh
-sudo contrib/scripts/install_prereq install
-sudo tar zxf asterisk-20-current.tar.gz
-cd asterisk-*/
-sudo contrib/scripts/get_mp3_source.sh
-sudo contrib/scripts/install_prereq install
-sudo ./configure
-sudo make menuselect
-sudo make -j2
-sudo make install
-sudo make samples
-sudo make config
-sudo make basic-pbx
-sudo make config
-sudo ldconfig
-sudo adduser --system --group --home /var/lib/asterisk --no-create-home --gecos "Asterisk PBX" asterisk
-cd ..
-dir
-cd ..
-dir
-cd ..
-dir
-cd etc
-dir
-cd default
-dir
-cd asterisk
-dir
-AST_USER="asterisk"
-AST_GROUP="asterisk"
-cd ..
-cd..
-cd ..
-dir
-cd etc/default/asterisk
-cd ..
-cd etc
-cd default
-cd asterisk
-dir
-cd asterisk
-dir
-cd asterisk
-cd .
-cd ..
-dir
-cd /default/asterisk
-cd default
-cd asterisk
-cd asterisk-20.5.0
-cd /asterisk-20.5.0
-dir
-gedit asterisk
-snap install gedit
-gedit asterisk
-cd asterisk
-didir
-dir
-gedit asterisk
-sudo nano /etc/network/interfaces
-sudo nano asterisk
-sudo usermod -a -G dialout,audio asterisk
-sudo chown -R asterisk: /var/{lib,log,run,spool}/asterisk /usr/lib/asterisk /etc/asterisk
-sudo chmod -R 750 /var/{lib,log,run,spool}/asterisk /usr/lib/asterisk /etc/asterisk
-sudo chown -R asterisk: /var/{lib,log,run,spool}/asterisk /usr/lib/asterisk /etc/asterisk
-sudo chmod -R 750 /var/{lib,log,run,spool}/asterisk /usr/lib/asterisk /etc/asterisk
-sudo systemctl start asterisk
-sudo asterisk -vvvr
-sudo systemctl start asterisk
-sudo asterisk -vvvr
-useradd test01
-sudo systemctl enable asterisk
-sudo asterisk -vvvr
-sudo systemctl enable asterisk
-dir
-sudo asterisk -vvvr
-cd
-dir
-cd ..
-dir
-cd ..
-dir
-cd etc
-dir
-cd default
-sudo systemctl start asterisk
-sudo asterisk -vvvr
-cd ..
-dir
-cd lib
-dir
-useradd asterisk asterisk
-cd ..
-cat /etc/passwd
-chown -R asterisk /var/spool/asterisk/ /var/lib/astersik/ /var/run/asterisk
-chown -R asterisk /var/spool/asterisk/ /var/lib/asterisk/ /var/run/asterisk
-cd usr/src/asterisk-13.34.0/contrib/init.d/
-cd usr/src/asterisk-20.5.0/contrib/init.d/
-cp etc_default_asterisk /etc/default/asterisk
-gedit /etc/default/asterisk
-cd
-etc/init.d/asterisk start
-etc
-/etc/init.d/asterisk start
-asterisk -rvvvvv
-gedit /etc/asterisk/asterisk.conf
-sudo adduser --system --group --home /var/lib/asterisk --no-create-home --gecos "Asterisk PBX" asterisk
-gedit /etc/asterisk/asterisk.conf
-cat /etc/asterisk/asterisk.conf
-
-service astersik restart
-cd /etc/asterisk/asterisk.conf
-cd /etc/asterisk/
-dir
-gedit asterisk.conf
-gedit
-cd:
-cd ..
-dir
-cd var
-dir
-cd lib
-dir
-cd ..
-dir
-cd usr
-cd src
-dir
-cd
-dir
-cd
-dir
-cd etc
-gedit /etc/asterisk
-gedit /etc/asterisk/asterisk.conf
-service astersik restart
-dir
-cd ..
-dir
-cd etc/asterisk
-asterisk -cvvv
-asterisk -r
-cd
-ls -la
-cd asterisk-20.5.0
-cd asterisk-20.5.0/
-cd asterisk-20.5.0
-ls
-cd contrib/
-ls
-cd init.d
-ls
-cd
-vi /etc/init.d/asterisk 
-cd
-type asterisk
-vi /etc/init.d/asterisk
-/etc/init.d/asterisk start
-systemct1 deamon-reload
-systemctl daemon-reload
-/etc/init.d/asterisk start
-asterisk -r
-pa aux
-ps aux
-/etc/init.d/asterisk stop
-useradd -d /var/lib/asterisk asterisk
-cat /etc/passwd
-chown -R /var/spool/asterisk /var/lib/asterisk /var/run/asterisk
-chown -R asterisk /var/spool/asterisk /var/lib/asterisk /var/run/asterisk
-cd asterisk 20.5.0/
-cd asterisk-20.5.0/
-ls
-cd con
-cd contrib
-ls
-cd init.d
-ls
-cp etc_default_asterisk /etc/default/asterisk
-vi etc/default/asterisk
-vi /etc/default/asterisk
-cd
-/etc/init.d/asterisk start
-systemctl status asterisk.service
-q
-/etc/init.d/asterisk start
-journalctl -xeu asterisk.service
-vi /etc/default/asterisk
-/etc/init.d/asterisk start
-systemctl status asterisk.service
-asterisk -r
-core restart now  
-core restart now
-sudo systemctl restart asterisk.service
-systemctl status asterisk.service
-sudo nano /etc/init.d/asterisk
-sudo service asterisk stop
-sudo service asterisk restart
-systemctl status asterisk.service
-/etc/init.d
-cd etc
-ls
-dir
-cd asterisk-20.5.0
-dir
-cd 
-dir
-ls
-cd asterisk-20.5.0
-cd contrib
-cd init.d
-ls
-vi /etc/default/asterisk
-cd
-sudo nano /etc/init.d/asterisk
-sudo vim /etc/init.d/asterisk
-nano editor
-sudo nano /etc/init.d/asterisk
-cd usr
-cd /usr
-cd /sbin
-dir
-cd /asterisk
-cd asterisk
-gedit asterisk
-sudo nano asterisk
-cd
-sudo nano /etc/init.d/asterisk
-/etc/init.d/asterisk start
-status asterisk
-asterisk status
-/etc/init.d/asterisk start
-sudo nano /etc/init.d/asterisk
-asterisk -r
-/etc/init.d/asterisk stop
-/etc/init.d/asterisk start
-asterisk -r
-cd 
-ls
-asterisk-20.5.0
-cd asterisk-20.5.0
-ls
-cd
-ls
-cd asterisk-20.5.0
-cd
-uppdate
-update
-update-rc.d
-vi /etc/network/interface
-ip addr
-status asterisk
-ls
-cd asterisk-20.5.0
-cd etc
-ls
-status asterisk
-
-systemctl enable  asterisk
-systemctl enable asterisk
-/etc/init.d/asterisk start
-sudo systemctl enable asterisk
-sudo systemctl status asterisk
-sudo asterisk -vvvr
-sudo asterisk -rvv
-cd /etc
-cd asterisk
-ls
-cat sip.conf
-sudo mv sip.conf sip.conf.default
-sudo nano sip.conf
-cat sip.conf
-sudo systemctl restart asterisk
-sudo asterisk -rvv
-cd
-sudo apt -y install bison
-sudo apt -y install wget
-sudo apt -y install openssl
-sudo apt -y install libssl-dev
-sudo apt -y install libasound2-dev
-sudo apt -y install libc6-dev
-sudo apt -y install libxml2-dev
-sudo apt -y install libsqlite3-dev
-sudo apt -y install libnewt-dev
-sudo apt -y install libncurses5-dev
-sudo apt -y install zlib1g-dev
-sudo apt -y install gcc
-sudo apt -y install g++
-sudo apt -y install make
-sudo apt -y install perl
-sudo apt -y install uuid-dev
-sudo apt -y install git
-sudo apt -y install subversion
-sudo apt -y install libjansson-dev
-sudo apt -y install unixodbc-dev
-sudo apt -y install unixodbc-bin
-sudo apt -y install unixodbc
-sudo apt -y install autoconf
-sudo apt -y install libedit-dev
-sudo apt -y install build-essential
-ls
-cd asterisk-20.5.0
-sudo systemctl restart asterisk
-restart asterisk
-systemctl status asterisk
-cd
-/etc/init.d/asterisk start
-cd asterisk-20.5.0
-systemctl status asterisk
-sudo systemctl restart asterisk
-systemctl status asterisk
-asterisk stop
-status asterisk
-systemctl status asterisk
-sudo asterisk stop
-asterisk -r
-sudo asterisk stop
-systemctl stop asterisk
-systemctl status asterisk
-sudo systemctl restart asterisk
-sudo restart asterisk
-sudo asterisk start
-cd /var/run/asterisk
-sudo systemctl restart asterisk
-systemctl status asterisk
-sudo asterisk start
-sudo asterisk stop
-sudo systemctl stop asterisk
-sudo systemctl start asterisk
-sudo start asterisk
-sudo asterisk stop
-cd
-sudo systemctl restart asterisk
-core stop now
-cd
-cd asterisk-20.5.0
-systemctl status asterisk
-cat sip.conf
-/etc
-cd /etc
-cd asterisk
-cat sip.conf
-cd
-update
-sudo apt-get update
-update
-cd asterisk-20.5.0
-update
-apt-get update
-apt-get install twinkle
-ifconfig
-cd
-ifconfig
-apt install net-tools
-ifconfig
-asterisk -rvvvv
-ifconfig
-ip ro
-asterisk -rvvvv
-chattr +i
-asterisk -rvvvv
-asterisk-20.5.0
-cd asterisk-20.5.0
-make menuselect
-asterisk -rvvvv
-asterisk -vvvvvvvvvvv
-asterisk -r
-asterisk -cvvvvvddd
-vi /etc/hosts
-fwconsole restart
-apt install fwconsole
-fwconsole restart
-update
-cd
-apt install fwconsole
-fwconsole restart
-fgconsole restart
-asterisk -vvvvvr
-asterisk-20.5.0
-cd asterisk-20.5.0
-fgconsole restart
-fwconsole restart
-apt-get install fwconsole
-fwconsole restart
-asterisk -rx 'core show channels'
-cd
-asterisk -rx 'module show like sip'
-asterisk -rx 'core restart now'
-cd asterisk-20.5.0
-asterisk -rx 'core restart now'
-systemctl status asterisk
-asterisk -rvvvvv
-ls
-cd /var
-cd /lib/asterisk
-cd
-useradd -d /var/lib/asterisk asterisk
-cat /etc/passwd
-chown -R asterisk /var/spool/asterisk/ /var/lib/asterisk/ /var run asterisk
-cd asterisk-20.5.0
-chown -R asterisk /var/spool/asterisk/ /var/lib/asterisk/ /var run asterisk
-cd
-chown -R asterisk /var/spool/asterisk/ /var/lib/asterisk/ /var run asterisk
-cd /usr/src/asterisk-20.5.0/contrib/init.d/
 cp etc_default_asterisk /etc/default/asterisk
 gedit /etc/default/asterisk
 ls
@@ -1884,3 +1420,581 @@ git checkout -b 2023-11-14-C
 git commit -m "2023-11-14 Third commit"
 git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
 git push origin 2023-11-14-C
+cd
+cd /etc/asterisk/
+ls
+sudo nano cdr_adaptive_odbc.conf
+sudo nano cdr.conf
+ls
+sudo nano ast_mongo.conf
+sudo nano sorcery.conf
+sudo nano extconfig.conf
+sudo nano res_config_mongodb.conf
+sudo nano modules.conf
+ls
+cd
+tail -f /var/log/asterisk/messages
+cat /etc/asterisk/call_log.txt
+sudo asterisk -rx 'dialplan reload'
+cat /etc/asterisk/call_log.txt
+cd /var/log/asterisk/
+ls
+cat messages
+ls
+tail -f cdr-csv
+cd
+tail -f /var/log/asterisk/cdr-csv/Master.csv
+cd /var/log/asterisk/
+ls
+cd cdr-csv
+ls
+Mster.csv
+cat Mster.c
+cat Master.csv
+ls
+cat Master.txt
+cat Master.csv
+ls
+cd ..
+ls
+cd
+cd /var/log/asterisk
+ls
+git init
+cd
+cd /etc/asterisk/
+ls
+sudo nano extensions.conf
+sudo nano logger.conf
+sudo nano cdr.conf
+sudo nano messages.conf
+sudo nano cdr.conf
+sudo nano extensions.conf
+nano call_log.txt
+sudo nano extensions.conf
+nano call_log.txt
+sudo nano extensions.conf
+nano call_log.txt
+ls -l call_log.txt
+sudo nano extensions.conf
+vi cdr.conf
+sudo nano cdr.conf
+sudo nano extensions.conf
+sudo nano cdr.conf
+CREATE TABLE cdr (
+);
+sudo apt-get install mongodb-server libmongoc-1.0-0
+cd
+mongo --host 124.43.67.53 --username chandimadms9 --password chandima@DMS9 --authenticationDatabase MyIpAddress/asterisk
+use asterisk
+db.cdr.find()
+sudo apt-get install libssl1.1
+mongo --host 124.43.67.53 --username chandimadms9 --password chandima@DMS9 --authenticationDatabase MyIpAddress/asterisk
+sudo apt-get install libssl-dev
+mongo --host 124.43.67.53 --username chandimadms9 --password chandima@DMS9 --authenticationDatabase MyIpAddress/asterisk
+sudo ln -s /usr/lib/x86_64-linux-gnu/libcrypto.so.3 /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+sudo apt-get install mongodb-clients
+wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org-shell
+mongo --host 124.43.67.53 --username chandimadms9 --password chandima@DMS9 --authenticationDatabase MyIpAddress/asterisk
+sudo apt-get install libssl1.0.0
+sudo apt-get install -y mongodb-org-shell
+wget https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2004-x86_64-100.5.0.deb
+sudo dpkg -i mongodb-database-tools-ubuntu2004-x86_64-100.5.0.deb
+mongo --host 124.43.67.53 --username chandimadms9 --password chandima@DMS9 --authenticationDatabase MyIpAddress/asterisk
+sudo apt-get install libssl1.1
+wget https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2004-x86_64-100.5.0.deb
+sudo dpkg -i mongodb-database-tools-ubuntu2004-x86_64-100.5.0.deb
+mongo --host 124.43.67.53 --username chandimadms9 --password chandima@DMS9 --authenticationDatabase MyIpAddress/asterisk
+sudo apt-get install unixODBC
+sudo apt-get install odbc-mysql
+mysql -u root -p
+mysql_
+cd /var/log/asterisk/
+mysql
+mysql_
+ls
+sysrc mysql_enable="YES"
+sudo systemctl enable mysql
+sudo systemctl start mysql
+sudo systemctl status mysql
+sudo mysql_secure_installation
+mysql -u root -pPasswor
+cd
+cd /usr/local/etc/
+ls
+cd ..
+ls
+cd etc
+ls
+die
+dir
+cat odbc.ini
+ls /usr/local/lib/*odbc*
+cd ..
+ls
+cd lib
+ls
+cd
+mysql 
+which mysql
+cd /usr/bin/
+ls
+cd mysql
+ls
+cd /usr/local/etc/clear
+clear
+cd
+vi odbcinst.ini
+cd /usr/local/etc/
+ls
+vi odbc.ini
+ls
+cd asterisk
+cd
+ls
+sudo apt-get install libmyodbc
+sudo apt-get install unixODBC odbc-mysql
+cd /etc/
+ls
+sudo nano odbc.ini
+cd asterisk
+sudo nano cdr_adaptive_odbc.conf
+sudo nano extensions.conf
+sudo nano cdr_adaptive_odbc.conf
+cd
+cd /etc/
+sudo nano odbc.ini
+cd asterisk
+git init
+git add .
+git checkout -b 2023-11-16-A
+git commit -m "2023-11-16- first Commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-16-A
+cd
+cd asterisk-20.5.0
+git add .
+git checkout -b 2023-11-16-B
+git commit -m "2023-11-16- second Commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-16-B
+cd /var/lib/
+ls
+cd asterisk
+ls
+cd
+git add .
+git checkout -b 2023-11-16-C
+git commit -m "2023-11-16- third Commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-16-C
+cd
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+sudo apt-get install mongodb-server libmongoc-1.0-0
+curl -O http://downloads.mongodb.org/linux/mongodb-linux-x86_64-2.2.7.tgz
+tar -zxvf mongodb-linux-x86_64-2.2.7.tgz
+mkdir -p mongodb
+cp -R -n mongodb-linux-x86_64-2.2.7/ mongodb
+mkdir -p /data/db
+chown mongodb /data/db
+chown dms /data/db
+mongod
+ls
+cd mongodb
+ls
+cd
+mongo
+use asterisk_cdr
+db.createUser({
+})
+sudo apt-get install mongodb libmongoc-1.0-0
+db.createUser({
+mongo
+use asterisk_cdr
+db.createUser({
+})
+sudo apt-get install mongodb-clients
+sudo apt-get install mongodb
+wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+sudo systemctl start mongod
+wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-5.0.3.tgz
+tar -zxvf mongodb-linux-x86_64-ubuntu2004-5.0.3.tgz
+sudo mv mongodb-linux-x86_64-ubuntu2004-5.0.3 /usr/local/mongodb
+sudo ln -s /usr/local/mongodb/bin/* /usr/local/bin/
+sudo systemctl start mongod
+sudo nano /etc/systemd/system/mongod.service
+sudo nano /etc/default/mongod
+sudo mkdir -p /var/lib/mongodb
+sudo mkdir -p /var/log/mongodb
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown -R mongodb:mongodb /var/log/mongodb
+sudo mkdir -p /var/lib/mongodb
+sudo mkdir -p /var/log/mongodb
+sudo chown -R dms:mongodb /var/lib/mongodb
+sudo chown -R dms:mongodb /var/log/mongodb
+ps -ef | grep mongod
+sudo chown -R mongod:mongod /var/lib/mongodb
+sudo chown -R mongod:mongod /var/log/mongodb
+sudo chown -R dms:dms /var/lib/mongodb
+sudo chown -R dms:dms /var/log/mongodb
+sudo systemctl start mongod
+[200~sudo systemctl status mongod
+~sudo systemctl status mongod
+sudo systemctl status mongod
+sudo systemctl start mongod
+sudo systemctl status mongod
+sudo nano /etc/systemd/system/mongod.service
+sudo nano /etc/default/mongod
+sudo chown -R dms:dms /var/lib/mongodb
+sudo chown -R dms:dms /var/log/mongodb
+sudo systemctl start mongod
+sudo systemctl status mongod
+sudo systemctl stop mongod
+systemctl daemon-reload
+sudo systemctl status mongod
+systemctl start mongod
+systemctl status mongod
+sudo nano /etc/systemd/system/mongod.service
+systemctl start mongod
+systemctl status mongod
+sudo systemctl daemon-reload
+sudo nano /etc/systemd/system/mongod.service
+which mongod
+sudo nano /etc/systemd/system/mongod.service
+sudo systemctl restart mongod
+sudo systemctl daemon-reload
+sudo systemctl restart mongod
+sudo systemctl status mongod
+sudo nano /etc/systemd/system/mongod.service
+which mongod
+sudo nano /etc/systemd/system/mongod.service
+cat /var/log/mongodb/mongod.log
+sudo systemctl restart mongod
+cat /var/log/mongodb/mongod.log
+sudo systemctl restart mongod
+sudo systemctl status mongod
+[200~sudo service mongod stop~
+sudo service mongod stop
+sudo apt-get purge mongodb-org*
+sudo rm -r /var/log/mongodb
+sudo rm -r /var/lib/mongodb
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+sudo service mongod start
+mongo
+systemctl status mongo
+systemctl start mongo
+sudo systemctl status mongod
+sudo systemctl start mongod
+sudo systemctl status mongod
+sudo systemctl enable mongod.service
+sudo service mongod start
+sudo systemctl status mongod
+sudo service mongod status
+sudo mongod
+sudo mkdir /var/lib/mongodb 
+sudo mkdir /var/log/mongodb 
+sudo chown -R dms:dms /var/lib/mongodb 
+sudo chown -R dms:dms /var/log/mongodb 
+sudo systemctl restart mongod
+mongo
+sudo service mongod status
+clear
+sudo apt-get install build-essential
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install asterisk-addons
+sudo nano /etc/asterisk/cdr.conf
+sudo nano /etc/asterisk/cdr_mongodb.conf
+sudo systemctl restart asterisk
+sudo systemctl status asterisk
+sudo nano /etc/asterisk/cdr_mongodb.conf
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+sudo nano /etc/asterisk/cdr_mongodb.conf
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+sudo nano /etc/asterisk/cdr_mongodb.conf
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+asterisk -rx "module load res_mongodb.so"
+asterisk -rx "realtime show engines"
+asterisk -rcv
+cd /var/log/asterisk/
+ls
+pkg install mysql75-server
+cd
+pkg search mysql5
+sudo apt-get update
+sudo apt-get install mysql-server
+pkg search mysql5
+apt install pkg
+pkg search mysql5
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+cd
+cd /etc/asterisk
+ls
+sudo nano extensions.conf
+sudo nano cdr_adaptive_odbc.conf
+sudo nano extensions.conf
+sudo nano modules.conf
+cd
+sudo nano /etc/systemd/system/mongod.service
+sudo nano /etc/default/mongod
+sudo nano /etc/asterisk/cdr.conf
+sudo nano /etc/asterisk/cdr_mongodb.conf
+sudo systemctl stop asterisk
+sudo apt-get remove libmongo-client-dev
+cd /usr/lib/asterisk/modules
+sudo rm res_mongo*.so
+ls
+cd
+cd /etc/asterisk/
+sudo rm res_mongo.conf
+sudo systemctl start asterisk
+sudo tail -f /var/log/asterisk/messages
+cd
+sudo apt-get remove mongodb
+dpkg -l | grep mongodb
+sudo apt-get remove mongodb-database-tools
+sudo apt-get autoremove
+sudo apt-get purge mongodb-database-tools
+ls /usr/local/bin | grep mongo
+ls /etc | grep mongo
+sudo rm /usr/local/bin/mongo
+sudo rm /usr/local/bin/mongod
+sudo rm /usr/local/bin/mongos
+ls /usr/local/bin | grep mongo
+ls /etc | grep mongo
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+sudo nano /etc/asterisk/res_config_mongodb.conf
+sudo nano /etc/asterisk/res_config.conf
+sudo nano /etc/asterisk/extensions.conf
+sudo systemctl restart asterisk
+sudo nano /etc/asterisk/pjsip.conf
+sudo nano /etc/asterisk/ps_endpoints.conf
+sudo nano /etc/asterisk/ps_auths.conf
+cd /usr/lib/asterisk/
+ls
+cd modules
+ls
+cd
+sudo rm -r /var/lib/mongodb
+sudo rm -r /var/log/mongodb
+sudo nano /etc/asterisk/res_config_mongodb.conf
+cd /etc/asterisk/
+ls
+rm res_config_mongodb.conf
+ls
+sudo nano extensions.conf
+cd
+cd /etc/asterisk/
+rm res_config_mongodb.conf
+sudo nano res_config.conf
+cd /usr/lib/asterisk/
+cd modules
+ls
+cd
+sudo reboot
+cd
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+cd
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+clear
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+asterisk -rvvv
+module load res_pjsip.so
+module load res_pjsip_authenticator_digest.so
+module load res_pjsip_endpoint_identifier_ip.so
+module load res_pjsip_mwi.so
+module load res_pjsip_notify.so
+module load res_pjsip_outbound_publish.so
+module load res_pjsip_publish_asterisk.so
+module load res_pjsip_outbound_registration.so
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+tail -f /var/log/asterisk/full
+cd /etc/mysql/
+ls
+sudo nano my.cnf
+cd
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+tail -f /var/log/mysql/mysql.log
+exit
+cd
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+asterisk -rx "core reload"
+asterisk -rcv
+exit
