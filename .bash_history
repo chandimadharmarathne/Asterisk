@@ -1,435 +1,3 @@
-cp etc_default_asterisk /etc/default/asterisk
-gedit /etc/default/asterisk
-ls
-gedit /etc/default/asterisk
-asterisk start
-asterisk -rvvvv
-gedit /etc/asterisk/asterisk.conf
-cd
-gedit /etc/asterisk/asterisk.conf
-cd asterisk
-cd asterisk-20.5.0
-gedit /etc/asterisk/asterisk.conf
-ls
-cd
-ls
-cd
-ls
-dir
-vi /etc/default/asterisk 
-service asterisk restart
-vi /etc/default/asterisk 
-cd asterisk-20.5.0
-asterisk -rvvvv
-cd /etc/asterisk
-cp sip.conf sip.conf.orig
-vi sip.conf
-gedit sip.conf
-ls
-sudo nano gedit sip.conf
-cd
-/etc/init.d/asterisk start
-asterisk -rvvvvv
-/etc/init.d/asterisk start
-/etc/init.d
-/etc
-/etc/init.d/asterisk start
-sudo nano gedit sip.conf
-ls
-/etc/init.d/asterisk
-/etc/init.d/asterisk status
-/etc/asterisk
-cd /etc/asterisk
-ls
-sudo nano sip.conf
-ls
-sudo nano sip.conf
-sudo nano sip.conf.default
-sudo nano sip.conf
-asterisk -rvvvv
-cd
-vi /etc/asterisk/module.conf
-cd /etc/asterisk
-ls
-sudo nano module.conf.old
-sudo nano gedit module.conf.old
-sudo nano gedit module.conf
-sudo nano gedit modules.conf
-service asterisk restart
-cd
-service asterisk restart
-service asterisk stop
-systemctl status asterisk 
-service asterisk start
-systemctl status asterisk 
-asterisk -rvvvv
-service asterisk restart
-systemctl status asterisk 
-service asterisk start
-systemctl status asterisk 
-sudo asterisk -rvv
-cd /etc/asterisk
-sudo mv sip.conf
-cd
-nano /etc/asterisk/cdr.conf
-nano /etc/asterisk/cel.conf
-systemctl status asterisk 
-systemctl stop asterisk
-systemctl start asterisk
-systemctl status asterisk 
-asterisk -rvv
-sip reload
-asterisk -rvv
-git init
-git add .
-git branch
-git checkout -b a
-git branch
-git commit -m "2023-11-06 day end"
-VIII.	git remote set-url origin https://chandimadharmarathne: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@github.com/chandimadharmarathne/Asterisk.git
-git remote set-url origin https://chandimadharmarathne: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@github.com/chandimadharmarathne/Asterisk.git
-git push -u origin a
-git remote set-url origin https://chandimadharmarathne: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@github.com/chandimadharmarathne/Asterisk.git
-cd
-ld
-ls
-cd asterisk
-cd asterisk-20.5.0
-ls
-dir
-cd
-update
-apt install update
-update
-update-rc.d asterisk defaults
-sudo apt update
-sudo make basic-pbx
-sudo make sample
-sudo make samples
-cd asterisk-20.5.0
-sudo make samples
-sudo make basic-pbx
-sudo make config
-sudo ldconfig
-sudo systemctl enable asterisk
-sudo systemctl start asterisk
-sudo asterisk -vvvr
-sudo ufw allow 5060/udp
-sudo ufw allow 10000:20000/udp
-systemctl status asterisk
-git add .
-cd
-sudo apt git
-git add asterisk-20.5.0
-cd asterisk-20.5.0
-git init
-cd
-git init
-git add asterisk-20.5.0
-cd asterisk-20.5.0
-ls
-git init
-git add .
-git commit -m "First Commit"
-git remote add origin https://github.com/chandimadharmarathne/Asterisk
-git push -u origin main
-git config --global user.email "chandimadarmarathna@gmail.com"
-git config --global user.name "chandimadharmarathne"
-git remote add origin https://github.com/chandimadharmarathne/Asterisk
-git push -u origin main
-git branch
-git checkout -b main
-git push -u origin main
-git add .
-git commit -m "Second Commit"
-git push -u origin main
-git remote set-url origin https://chandimadharmarathne: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@github.com/chandimadharmarathne/Asterisk.git
-git push -u origin main
-git push -u origin main2
-git commit -m "Third Commit"
-git remote set-url origin https://chandimadharmarathne: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@github.com/chandimadharmarathne/Asterisk.git
-git push -u origin main
-git branch
-git checkout -b bacup
-git push -u origin bacup
-cd
-ifconfig
-git push -u origin a
-git branch
-git checkout -b a
-git push -u origin a
-git init
-cd asterisk-20.5.0
-git push -u origin a
-git remote add origin https://github.com/chandimadharmarathne/Asterisk.git
-git branch
-git checkout -b a
-git push -u origin a
-git remote add origin https://github.com/chandimadharmarathne/Asterisk.git
-git push -u origin a
-git add .
-git commit -m "2023-11-06 Last Commit"
-git init
-git add .
-git commit -m "2023-11-06 Last Commit"
-git checkout -b a
-git push -u origin a
-git remote -v
-git remote set-url origin https://chandimadharmarathne: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@github.com/chandimadharmarathne/Asterisk.git
-git push -u origin a
-cd
-ls
-cd asterisk-20.5.0
-ls
-systemctl status asterisk
-cd
-cd /etc/asterisk/
-cp sip.conf sip.conf.original
-vi sip.conf
-sudo nano gedit sip.conf
-cd
-/etc/init.d/asterisk start
-asterisk -rvvvv
-sudo status twinkle
-apt-get install twinkle
-sudo apt purge twinkle
-apt-get install twinkle
-ifconfig
-ipcinf
-ipconfig
-apt-get install ipconfig
-ipconfig
-ifconfig
-asterisk -rvvv
-sudo nano gedit sip.conf
-cd astersik-20.5.0
-cd asterisk-20.5.0
-sudo nano gedit sip.conf
-ls
-cd configs
-ls
-cd ..
-dir
-cd
-sudo nano gedit sip.conf
-cd asterisk-20.5.0
-sudo nano gedit sip.conf
-dir
-ls
-cd
-vi sip.conf
-cd /etc/asterisk/
-ls
-sudo nano gedit sip.conf
-asterisk start
-asterisk -rvv
-cp sip.conf ../../ sip.conf.sample
-cp sip.conf ../.. sip.conf
-cp sip.conf ../../sip.conf
-cd
-ls
-cd /etc/
-ls
-cd
-cd asterisk-20.5.0
-ls
-cd configs
-ls
-cd basic-pbx
-ls
-cd
-cd /etc/asterisk/
-ls
-cd
-sudo nano gedit sip.conf
-cd /etc/asterisk/
-sudo nano gedit sip.conf
-cd
-sudo nano gedit sip.conf
-systemctl status asterisk
-asterisk -rvvv
-sudo nano gedit sip.conf
-vi sip.conf
-cd /etc/asterisk
-ls
-
-cd /etc/asterisk
-asterisk start
-asterisk stop
-stop asterisk
-systemctl stop asterisk
-systemctl status asterisk
-systemctl start asterisk
-systemctl status asterisk
-asterisk -rvvv
-asterisk -r
-cd
-/etc/init.d/asterisk start
-vi /etc/init.d/asterisk
-type asterisk
-vi /etc/init.d/asterisk
-/etc/init.d/asterisk start
-asterisk -r
-ps aux
-/etc/init.d/asterisk stop
-useradd -d /var/lib/asterisk asterisk
-chown -R asterisk  /var/spool/asterisk /var/lib/asterisk /var/run/asterisk
-cd asterisk-20.5.0
-ls
-cd contrib
-ls
-cd init.d
-ls
-cp etc_default_asterisk /etc/default/asterisk
-vi /etc/default/asterisk
-cd
-/etc/init.d/asterisk start
-ps aux
-asterisk -r
-vi /etc/asterisk/asterisk.conf
-cd
-vi /etc/asterisk/asterisk.conf
-cd /etc
-ls
-cd asterisk
-ls
-cd asterisk.conf.old
-sudo nano gedit asterisk.conf.old
-rm asterisk.conf
-ls
-cp asterisk.conf.old asterisk.conf
-ls
-sudo nano gedit asterisk.conf
-cd
-vi /etc/asterisk/asterisk.conf
-/etc/init.d/asterisk stop
-/etc/init.d/asterisk start
-asterisk -r
-cls
-update
-apt-get update
-update
-sudp apt update
-sudo apt update
-vi /etc/network/interface
-cd /etc/network/
-ls
-vi /etc/network/interface
-cd
-ipconf
-ifconf
-ifconfig
-vi /etc/network/interface
-cd /etc/network/
-ls
-rm interface
-ls
-cd
-vi /etc/network/interface
-sudo nano gedit sip.conf
-vi /etc/network/interface
-service network restart
-ip addr
-ping www.google.de
-ifconfig
-iprow
-ip ro
-asterisk -rvvv
-sudo nano gedit sip.conf
-asterisk -rvvv
-/etc/init.d/asterisk stop
-/etc/init.d/asterisk start
-asterisk -rvvv
-sudo nano gedit sip.conf
-module show like chan_sip
-asterisk -r
-asterisk -rvvv
-asterisk -r
-asterisk -rvvv
-vi /etc/asterisk/sip.conf
-sudo nano gedit sip.conf
-cd /etc/asterisk/
-ls
-sudo nano gedit sip.config
-vi sip.conf
-sudo nano gedit sip.conf
-vi sip.conf
-sudo nano gedit sip.conf
-cd
-asterisk -rvvv
-cd /usr/lib/asterisk/modules
-ls
-cd
-asterisk -rvvv
-apt -install twinkle
-apt-get install twinkle
-if config ifconfig; exit
-apt-get install twinkle
-apt-get install twinkle/precise
-cd /etc/
-ls
-cd
-/etc/twinkle/chandima.sip
-ls /etc/twinkle
-ls -l /etc/twinkle/chandima.sip
-sudo mkdir /etc/twinkle
-sudo nano /etc/twinkle/chandima.sip
-twinkle --config /etc/twinkle/chandima.sip
-twinkle -H --config /etc/twinkle/chandima.sip
-sudo apt-get install libxcb1
-twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
-mkdir /root/.twinkle
-cd /root/
-twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
-sudo chown -R root:root /root/.twinkle
-sudo chmod -R 700 /root/.twinkle
-sudo chown -R root:root /root/.twinkle
-sudo chmod -R 700 /root/.twinkle
-sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
-sudo touch /root/.twinkle/twinkle.cfg
-sudo chown root:root /root/.twinkle/twinkle.cfg
-sudo chmod 600 /root/.twinkle/twinkle.cfg
-sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default" -f /root/.twinkle/twinkle.cfg
-sudo netstat -tuln | grep 5060
-sudo service asterisk stop  # Replace with the service name of the conflicting application
-sudo service asterisk stop  
-ps aux | grep twinkle
-twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default" -f /root/.twinkle/twinkle.cfg
-sudo service asterisk start
-sudo service asterisk status
-asterisk -rvvvv
-sudo usermod -a -G audio chandima
-sudo usermod -a -G audio dms
-/.twinkle/twinkle
-ls
-/root/.twinkle/twinkle
-twinkle
-/root/.twinkle/twinkle
-which twinkle
-cd /usr/bin/
-ls
-cd twinkle
-sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
-sudo service asterisk stop  
-sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
-sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "255.255.255.255" -c "default"
-ifconfig
-sudo service asterisk status
-sudo service asterisk start
-sudo service asterisk status
-asterisk -rvvvv
-cd
-sudo service asterisk status
-asterisk -rvvvv
-apt-get install alsa-tools
-sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
-sudo service asterisk stop
-sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
-sudo service asterisk status
-sudo service asterisk start
-sudo service asterisk status
-asterisk -rvvvv
-sudo twinkle -c "asterisk" -e "asterisk" -u "asterisk" -p "12345" -s "172.20.10.86" -c "default"
 sudo service asterisk status
 cd /usr/bin/
 sudo twinkle -c "chandima" -e "chandima" -u "chandima" -p "12345" -s "172.20.10.86" -c "default"
@@ -1998,3 +1566,435 @@ asterisk -rcv
 asterisk -rx "core reload"
 asterisk -rcv
 exit
+cd
+cd /etc/asterisk
+ls
+sudo nano extensions.conf
+rm ast_mongo.conf
+ls
+rm cdr_mongodb.conf
+ls
+cd
+sudo nano /etc/asterisk/cdr.conf
+sudo nano /etc/asterisk/cdr_mongodb.conf
+cd /etc/asterisk/
+rm cdr_mongodb.conf
+ls
+sudo nano cdr.conf
+sudo nano cdr.conf.old
+sudo nano cdr.conf
+sudo nano cdr.conf.old
+sudo nano cdr_odbc.conf
+which ps_auth
+where ps_auth
+cd
+cd /var/log/
+ls
+cd asterisk
+ls
+cd cdr_csv
+sudo nano cdr_csv
+ls
+cd messages
+cd ../..
+ls
+cd lib
+ls
+cd asterisk
+ls
+cd
+cd /etc/asterisk/
+ls
+sudo nano extensions.conf
+ls
+sudo nano res_config_mysql.conf
+sudo nano res_config_odbc.conf
+sudo nano res_odbc.conf
+sudo nano modules.conf
+rm pjsip.conf
+sudo nano pjsip.conf
+rm ast_mongo.conf
+git init
+git checkout -b backupA
+git add .
+git commit -m "backup commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin backupA
+sudo nano cdr.conf
+sudo nano extconfig.conf
+sudo nano modules.conf
+sudo nano extconfig.conf
+sudo nano sorcery.conf
+sudo nano cdr.conf
+sudo nano extensions.conf
+tail -f /var/log/asterisk/cdr-csv/Master.csv
+cd
+mysql
+cd /etc/
+ls
+sudo nano odbc.ini
+cd asterisk
+ls
+sudo nano cdr_adaptive_odbc.conf
+sudo nano extensions.conf
+cd
+tail -f /var/log/asterisk/cdr-csv/Master.csv
+cd /ect/asterisk/
+cd /etc/asterisk/
+ls
+sudo nano cdr.conf
+sudo nano extensions.conf
+sudo nano extensions.confcd
+cd
+cd /usr/lib/
+ls
+cd ..
+ls
+cd local
+ls
+cd etc
+ls
+sudo nano odbc.ini
+cd
+which odbc.ini
+ls
+cd /ect/asterisk
+cd /etc/asterisk
+ls
+sudo nano cdr.conf
+sudo nano modules.conf
+sudo nano cdr.conf
+cd
+cd /var/log/
+ls
+cd asterisk
+ls
+cd full
+sudo nano full
+cd
+asterisk -rx "database show MYSQL error"
+asterisk -rx "module show like cdr_mysql"
+asterisk -rx "module load cdr_mysql.so"
+asterisk -rx "module show like cdr_mysql"
+ls /usr/lib/asterisk/modules/cdr_mysql.so
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install asterisk-modules
+asterisk -rx "module load cdr_mysql.so"
+sudo apt-get install --reinstall asterisk-modules
+asterisk -rx "module load cdr_mysql.so"
+ls /usr/lib/asterisk/modules/cdr_mysql.so
+cd /usr/lib/asterisk/modules/
+ls
+cd
+sudo apt-get install asterisk-mysql
+cd /etc/asterisk/
+ls
+sudo nano extensions.conf
+sudo nano modules.conf
+sudo nano extensions.conf
+sudo nano modules.conf
+sudo nano extensions.conf
+sudo nano cdr.conf
+cd
+ls /etc/radiusclient-ng/radiusclient.conf
+sudo systemctl restart asterisks
+cd /etc/asterisk
+ls
+sudo nano manager.conf
+rm extensions.conf
+sudo nano extensions.conf
+cd
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+cd /etc/asterisk
+ls
+git add .
+git push origin backupA
+git checkout -b backup2
+git commit -m "hellow"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin backup2
+sudo nano extensions.conf
+sudo nano pjsip.conf.conf
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+sudo systemctl restart asterisks
+systemctl stop asterisk
+systemctl status asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+cd
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+git add .
+git checkout -b 2023-11-17-B
+git commit -m "2023-11-17-Second Commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-17-B
+cd /etc/asterisk
+git add .
+git checkout -b 2023-11-17-A
+git commit -m "2023-11-17-First Commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-17-A
+cd
+ls
+cd asterisk-20.5.0
+git add .
+git checkout -b 2023-11-17-C
+git commit -m "2023-11-17-Third Commit"
+git remote set-url origin https://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@github.com/chandimadharmarathne/Asterisk.git
+git push origin 2023-11-17-C
+cd
+mysql
+mysql -u root -p
+mysql
+mysql -u dms -p
+d
+cd
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+asterisk -rx "reload"
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+ls /var/lib/asterisk/sounds/en/welcome2.gsm
+ls -l /var/lib/asterisk/sounds/en/welcome2.gsm
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+asterisk -rx "reload"
+systemctl stop asterisk
+systemctl start asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+asterisk -rx "reload"
+systemctl stop asterisk
+systemctl start asterisk
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl restart asterisk
+sox input.wav -r 8000 -c 1 -e signed-integer -t gsm output.gsm
+sox welcome2.gsm -r 8000 -c 1 -e signed-integer -t gsm output.gsm
+asterisk -rcv
+asterisk -x " core show settings" | grep -i dire
+ls /var/lib/asterisk/sounds/en/welcome2.gsm
+ls -l /var/lib/asterisk/sounds/en/welcome2.gsm
+asterisk -rvvvv
+ls /var/lib/asterisk/sounds/en/welcome.gsm
+ls /var/lib/asterisk/sounds/en/welcome.vox
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rvvvv
+asterisk -rx "core show file formats"
+sox /var/lib/asterisk/sounds/en/welcome.vox -r 8000 -c 1 -e signed-integer -t gsm /var/lib/asterisk/sounds/en/welcome.gsm
+sox /var/lib/asterisk/sounds/en/welcome.vox /var/lib/asterisk/sounds/en/welcome.wav
+sox /var/lib/asterisk/sounds/en/welcome.wav -r 8000 -c 1 -e signed-integer -t gsm /var/lib/asterisk/sounds/en/welcome.gsm
+ffmpeg -i /var/lib/asterisk/sounds/en/welcome.wav -ar 8000 -ac 1 -ab 13k -codec gsm /var/lib/asterisk/sounds/en/welcome.gsm
+sudo apt install ffmpeg
+ffmpeg -i /var/lib/asterisk/sounds/en/welcome.wav -ar 8000 -ac 1 -ab 13k -codec gsm /var/lib/asterisk/sounds/en/welcome.gsm
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+ls /var/lib/asterisk/sounds/en/welcome.gsm
+chmod 644 /var/lib/asterisk/sounds/en/welcome.gsm
+file /var/lib/asterisk/sounds/en/welcome.gsm
+soxi /var/lib/asterisk/sounds/en/welcome.gsm
+asterisk -rx "core show channels concise"
+ls -l /var/lib/asterisk/sounds/en/welcome.gsm
+asterisk -rx "channel originate PJSIP/chandima1 application Playback en/welcome.gsm"
+chown asterisk:asterisk /var/lib/asterisk/sounds/en/welcome.gsm
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl status asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+asterisk -rx "dialplan reload"
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+systemctl stop asterisk
+systemctl start asterisk
+asterisk -rcv
+cd
+whereis sounds
+apt install plocate
+whereis sounds
+locate sounds
+cd /var/lib/asterisk/
+ls
+cd sounds
+ls
+cd en
+ls
+wget https://raw.githubusercontent.com/chandimadharmarathne/Asterisk/main/welcome.vox
+wget https://github.com/chandimadharmarathne/Asterisk/blob/main/welcome2.gsm
+ls
+cd ..
+ls
+cd custom
+ls
+asterisk -rx 'core show file formats'
+cd ..
+cd en
+ls
+rm welcome2.gsm.1
+rm welcome.vox.1
+ls
+cd ..
+dir my
+mkdir my
+ls
+cd my
+wget https://raw.githubusercontent.com/chandimadharmarathne/Asterisk/main/welcome.vox
+ls
+wget https://github.com/chandimadharmarathne/Asterisk/blob/main/welcome2.gsm
+ls
+cd ..
+cd en
+ls
+cd /var/lib/asterisk/sounds/en/
+sox welcome2.gsm -r 8000 -c 1 -e signed-integer -t gsm output.gsm
+sudo apt-get install sox
+sox welcome2.gsm -r 8000 -c 1 -e signed-integer -t gsm output.gsm
+sox welcome2.gsm -r 8000 -c 1 -e unsigned-integer -t gsm output.gsm
+ls
+sudo nano welcome.gsm
+ls
+cp welcome.gsm welcomeOld.gsm
+ls
+rm welcome.gsm
+ls
+cp welcomeOld.gsm welcome.gsm
+ls
+mkdir mysound
+ls
+cd mysound
+ls
+cd ..
+cp welcome.vox mysound/welcome.vox
+cd mysound
+ls
+cd ..
+cp hello-world.gsm mysound/hello-world.gsm
+ls
+cd mysound
+ls
+cd
+cd etc/asterisk/
+cd /etc/asterisk/
+ls
+sudo nano pjsip.conf
+cp pjsip.conf pjsipNew.conf
+ls
+rm pjsip.conf
+ls
+sudo nano ex
+sudo nano extensions.conf
+chown -R asterisk:asterisk /var/lib/asterisk/
+ls
+sed -i 's";\[radius\]"\[radius\]"g' /etc/asterisk/cdr.conf
+sed -i 's";radiuscfg => /usr/local/etc/radiusclient-ng/radiusclient.conf"radiuscfg => /etc/radcli/radiusclient.conf"g' /etc/asterisk/cdr.conf
+sed -i 's";radiuscfg => /usr/local/etc/radiusclient-ng/radiusclient.conf"radiuscfg => /etc/radcli/radiusclient.conf"g' /etc/asterisk/cel.conf
+sudo nano pjsip.conf
+sudo nano extensions.conf
+sudo reboot
